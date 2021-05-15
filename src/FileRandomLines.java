@@ -28,16 +28,14 @@ public class FileRandomLines {
     }
 
     public static void printLines(List<String> lines, int lineNumbers) {
-        
+
         Random r = new Random();
         int numOfLines = lines.size();
 
         for (int i = 0; i < lineNumbers; i++) {
             int lineIndex = r.nextInt(numOfLines);
-            if (lineIndex <= numOfLines) {
-                String line = lines.get(lineIndex);
-                System.out.println("[" + (i + 1) + "] Line " + lineIndex + ":\t" + line);
-            }
+            String line = lines.get(lineIndex);
+            System.out.println("[" + (i + 1) + "] Line " + lineIndex + ":\t" + line);
         }
     }
 }
