@@ -11,7 +11,7 @@
             "request": "launch",
             "mainClass": "FileRandomLines",
             "projectName": "java-misc_2cf15620",
-            "args": "sample3.txt 3"
+            "args": "sample1.txt 3"
         },
         {
             "type": "java",
