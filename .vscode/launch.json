@@ -1,0 +1,38 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "type": "java",
+            "name": "Launch FileRandomLines",
+            "request": "launch",
+            "mainClass": "FileRandomLines",
+            "projectName": "java-misc_2cf15620",
+            "args": "sample3.txt 3"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch FileCharCount",
+            "request": "launch",
+            "mainClass": "FileCharCount",
+            "projectName": "java-misc_2cf15620",
+            // "args": "b"
+        },
+        {
+            "type": "java",
+            "name": "Launch StringInitials",
+            "request": "launch",
+            "mainClass": "StringInitials",
+            "projectName": "java-misc_2cf15620"
+        }
+    ]
+}
